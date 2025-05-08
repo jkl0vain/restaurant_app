@@ -23,7 +23,7 @@ class CustomAppbar extends StatelessWidget {
               CircleAvatar(
                 radius: 20.r,
                 backgroundColor: Colors.white,
-                backgroundImage: const AssetImage("assets/images/photo_2025-04-13_23-14-21.jpg"),
+                backgroundImage: const AssetImage("assets/images/GAMBAR_FORMAL.png"),
               ),
               Padding(
                 padding: EdgeInsets.symmetric(horizontal: 8.0.w),
@@ -32,11 +32,11 @@ class CustomAppbar extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     ReusableText(
-                      text: "Queens Foods",
+                      text: "Foodiesss",
                       style: appStyle(14, Colors.white, FontWeight.bold),
                     ),
                     ReusableText(
-                      text: "Universiti Putra Malaysia",
+                      text: "Bandar Baru Bangi",
                       style: appStyle(12, Colors.white, FontWeight.normal),
                     ),
                   ],
