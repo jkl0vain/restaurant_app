@@ -1,20 +1,21 @@
-const categories = [
+List categories = [
   {
     "_id": "6537ece708ff5b7de97d0695",
     "title": "Fried Rice",
     "value": "fried_rice",
     "imageUrl":
-        "https://d326fntlu7tb1e.cloudfront.net/uploads/4a4cd06e-94de-4478-8588-66eee01354d4-rice.png",
+        "https://toppng.com/uploads/preview/fried-chicken-with-rice-png-11552936447iql1vnw4uj.png",
     "createdAt": "2023-10-24T16:12:23.571Z",
     "updatedAt": "2023-10-24T16:12:23.571Z",
     "__v": 0
   },
+  
   {
     "_id": "65310f3381e4d98d60b093c5",
     "title": "Curry",
     "value": "curry",
     "imageUrl":
-        "https://d326fntlu7tb1e.cloudfront.net/uploads/ee2d952c-1d7d-48f7-81b3-cb967343eb6c-curry.png",
+        "",
     "__v": 0
   },
   {
@@ -383,5 +384,3 @@ const choicesList = [
     "value": "recommended",
   },
 ];
-
-
