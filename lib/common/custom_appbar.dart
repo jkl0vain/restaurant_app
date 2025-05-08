@@ -13,7 +13,7 @@ class CustomAppbar extends StatelessWidget {
     return Container(
       width: width, // Ensure `width` is defined in constants.dart
       height: 100.h,
-      padding: EdgeInsets.fromLTRB(12.w, 45.h, 12.w, 0),
+      padding: EdgeInsets.fromLTRB(12.w, 5.h, 12.w, 0),
       color: kSecondary,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -23,7 +23,7 @@ class CustomAppbar extends StatelessWidget {
               CircleAvatar(
                 radius: 20.r,
                 backgroundColor: Colors.white,
-                backgroundImage: const AssetImage("assets/images/profile.jpg"),
+                backgroundImage: const AssetImage("assets/images/photo_2025-04-13_23-14-21.jpg"),
               ),
               Padding(
                 padding: EdgeInsets.symmetric(horizontal: 8.0.w),
@@ -32,7 +32,7 @@ class CustomAppbar extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     ReusableText(
-                      text: "Kings Foods",
+                      text: "Queens Foods",
                       style: appStyle(14, Colors.white, FontWeight.bold),
                     ),
                     ReusableText(
