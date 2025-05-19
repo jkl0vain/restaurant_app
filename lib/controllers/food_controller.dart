@@ -33,6 +33,13 @@ class FoodController extends GetxController{
 
   RxList<Additive> get additiveList => _additiveList;
 
+  get tags => null;
+
+  set setTags(String setTags) {
+      _types.add(setTags);
+
+  }
+
   set addAdditive(Additive newValue){
     _additiveList.add(newValue);
   }
